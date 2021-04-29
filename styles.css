@@ -12,6 +12,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+hr{
+
+    margin: 2rem 0rem;
+}
+
 .container {
 
 padding-left: 1rem;
@@ -51,3 +56,17 @@ padding-right: 1rem;
     border: 1px solid var(--primary-color);
 }
 
+/* Look into BEM naming conventions for CSS */
+
+/* Lists */
+
+.list-non-bullet{
+
+    list-style: none;
+}
+
+.list-inline-element{
+
+    display: inline;
+    padding: 0rem 0.5rem;
+}
