@@ -3,7 +3,8 @@
 
 :root {
 
-    --primary-color: #7C3AED
+    --primary-color: #7C3AED;
+    --dark-gray: #6B7280
 
 }
 
@@ -101,4 +102,32 @@ padding-right: 1rem;
 .navigation .link-active{
     font-weight: bold;
     font-size: 1.1rem;
+}
+
+/* Header */
+
+.hero {
+
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.hero .hero-img {
+
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+
+    padding-top: 1rem;
+    color: var(--dark-gray);
+
+}
+
+.hero .hero-heading .heading-inverted{
+
+    color: var(--primary-color);
 }
